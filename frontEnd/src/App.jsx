@@ -151,11 +151,11 @@ export default function App() {
           {/* CHAT HEADER */}
           <div className="flex items-center gap-3 px-4 py-3 border-b border-gray-200">
             <div className="h-10 w-10 rounded-full bg-[#075E54] flex items-center justify-center text-white font-semibold">
-              RC
+              CA
             </div>
             <div className="flex-1">
               <div className="text-sm font-medium text-[#303030]">
-                Realtime  chat
+                Realtime group chat
               </div>
 
               {typers.length ? (
